@@ -1,0 +1,23 @@
+{
+  "description": "loans, payments, and transactions",
+  "main": "index.js",
+  "name": "@linosnchena/shared-troopers-packages",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LINOSNCHENA/shared-troopers-packages"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
