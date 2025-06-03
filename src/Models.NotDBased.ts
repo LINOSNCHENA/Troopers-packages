@@ -1,6 +1,4 @@
 // NotDB
-
-import type { ComputedRef } from "vue";
 import type { IAnalytics, IDeposit, IExpense, IProperty, IShopping } from "./Models.Expenses";
 import type { ILoan, ICollection, IApplicant, ICustoma } from "./Models.Loans";
 import type { IEvaluation, IProfile, ISalary } from "./Models.Workers";
@@ -174,7 +172,7 @@ export interface TabConfig {
   value: string;
   icon: string;
   label: string;
-  count: ComputedRef<number> | number;
+  count: number;
 }
 
 export interface SoliCustoma {
