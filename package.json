@@ -1,6 +1,6 @@
 {
   "description": "loans, payments, and transactions",
-  "main": "index.js",
+  "main": "src/index.ts",
   "name": "@linosnchena/shared-troopers-packages",
   "version": "1.0.0",
   "publishConfig": {
