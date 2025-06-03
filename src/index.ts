@@ -1,12 +1,15 @@
 // index.ts
+
+// ====================================================|1|
+import type { IProperty } from "./Models.Expenses";
+import type { IProfile, IEvaluation, ISalary } from "./Models.Workers";
 export const API_URL = 'https://tapi.example.com';
 export const API_VERSION = 'https://troopers-money-matters.netlify.app/';
 
-
-// ====================================================|1|
-
-import type { IProperty } from "./Models.Expenses";
-import type { IProfile, IEvaluation, ISalary } from "./Models.Workers";
+export * from './Models.Expenses';
+export * from './Models.Workers';
+export * from './Models.Loans';
+export * from './Models.Combined';
 
 export interface ICustoma {  //1
     [key: string]: any;
