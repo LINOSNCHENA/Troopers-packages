@@ -1,10 +1,9 @@
 ## Instructioms
 
-## 1. Started
+## 1. Started | Github and npm packages
 
 ```
 npm login --registry=https://npm.pkg.github.com
-
 When prompted:
 Username: your GitHub username
 Password: your GitHub PAT
@@ -23,7 +22,8 @@ npm publish
 ## .npmrc includes:
 
 ```
-@linosnchena:registry=https://npm.pkg.github.com/
+blank as this is public
+
 ```
 
 ## 4. Install in apps
@@ -31,6 +31,8 @@ npm publish
 ```
 npm install @linosnchena/shared-troopers-packages
 import { API_URL, User } from '@linosnchena/shared-troopers-packages'
++ @linosnchena/shared-troopers-packages@1.0.0
+
 ```
 
 ## End
