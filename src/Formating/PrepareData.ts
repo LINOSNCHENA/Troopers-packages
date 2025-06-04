@@ -1,5 +1,5 @@
 
-import { ILoan, ICollection } from "..";
+import { ICollection, ILoan } from "../Models.Loans";
 import { ISTATUS_CLOSED } from "../constants/NexusData";
 import { IFilteredData } from "../Models.NotDBased";
 

@@ -111,6 +111,7 @@ export interface ILoan {
   security_mobile: string;
   mixed_balances: number;
   case_volume: number;
+
 }
 
 
@@ -167,6 +168,9 @@ export interface ICollection {
   ranked: number;
   rankx: string; // Fotox
   progress: string;
+  company_monthly: number;
+  company_yearly: number;
+  company_daily: number;
 }
 
 // ==============================================================[4]

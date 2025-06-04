@@ -88,8 +88,7 @@ exports.loanSample = {
     parent_id: "",
     customer_volume: 0,
     profit_target: 0,
-    profit_result: 0,
-    year: 0,
+    fotox: 0, year: 0,
     month: "",
     daily_fine: 0,
     days_penalized: 0,
@@ -102,7 +101,7 @@ exports.loanSample = {
     case_volume: 0,
     overdue2: 0,
     overdue_penalties: 0,
-    fotox: 0
+    profit_result: 0
 };
 //3
 exports.collectionForm = ({
@@ -144,7 +143,10 @@ exports.collectionForm = ({
     monthly_balance: 0,
     instalment_balance: 0,
     instalment_penalty: 0,
-    monthly_accumulated: 0
+    monthly_accumulated: 0,
+    company_monthly: 0,
+    company_yearly: 0,
+    company_daily: 0,
 });
 //4
 exports.applicantForm = ({
