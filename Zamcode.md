@@ -10,7 +10,7 @@ Password: your GitHub PAT
 Email: any email on your GitHub
 ```
 
-## 2. Dependabces
+## 2. Dependances
 
 ```
 npm install -g typescript
@@ -19,19 +19,23 @@ npm run build
 npm publish
 ```
 
-## .npmrc includes:
+## 3. Requirements
 
 ```
-blank as this is public
-
+If publishing as a public package, your `.npmrc` can remain blank.
 ```
 
 ## 4. Install in apps
 
 ```
-npm install @linosnchena/shared-troopers-packages
-import { API_URL, User } from '@linosnchena/shared-troopers-packages'
-+ @linosnchena/shared-troopers-packages@1.0.0
+npm i @linosnchena/shared-troopers-packages@1.0.0
+import { Iloans, ICollections } from '@linosnchena/shared-troopers-packages'
+```
+
+### Routes
+
+```
+https://www.npmjs.com/package/@linosnchena/shared-troopers-packages/v/1.0.0
 
 ```
 
