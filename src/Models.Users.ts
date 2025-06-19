@@ -45,6 +45,8 @@ export interface IUserData {
   aud?: string;
 }
 
+export const developers = "Developer : TroopersCOder: Version 1.0.1";
+
 
 // =======================|SEVEN|====================================[1/7]
 

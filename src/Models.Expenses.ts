@@ -19,6 +19,22 @@ export interface IExpense {
   descriptionx: string | null;
   categoryx: string; // default 'false'
 }
+
+export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid';
+
+export interface IExpenseV2 {
+  id?: string;
+  description: string;
+  beneficiary: string;
+  amount: number;
+  updated: string;
+  created: string;
+  progress: ExpenseProgress;
+  user: string,
+  rank?: string;
+  ranked?: number
+  benefactor_sum?: number; // Sum of amounts for the same beneficiary
+}
 // ====================================================|2|
 export interface IShopping {
   [key: string]: any;
@@ -132,5 +148,7 @@ export interface IPenalty {
 }
 
 // ====================================================|7|
+
+
 
 

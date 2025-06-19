@@ -16,7 +16,6 @@ export interface ICustoma {  //1
   dealx?: number;
   deals_open?: number;
   deals_active?: number;
-
   solicitorx?: string;
   occupationx: string;
   nrcx: string;
@@ -111,7 +110,6 @@ export interface ILoan {
   security_mobile: string;
   mixed_balances: number;
   case_volume: number;
-
 }
 
 
