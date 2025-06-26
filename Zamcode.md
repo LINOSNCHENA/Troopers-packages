@@ -29,6 +29,7 @@ If publishing as a public package, your `.npmrc` can remain blank.
 
 ```
 npm i @linosnchena/shared-troopers-packages@1.0.0
+npm i @linosnchena/shared-troopers-packages@1.0.0
 import { Iloans, ICollections } from '@linosnchena/shared-troopers-packages'
 ```
 
