@@ -112,8 +112,6 @@ export interface ILoan {
   case_volume: number;
 }
 
-
-
 // ====================================================|3|
 
 export interface ICollection {
@@ -139,6 +137,7 @@ export interface ICollection {
   created: Date;
   updated: Date;
   closingdate: Date;
+  openingdate: Date;
   deadlinez: Date;
   consultantz?: string | null;
   parent_id: string;

@@ -1,7 +1,6 @@
 // ====================================================|1|
 // Total (7)
 
-
 export interface IExpense {
   [key: string]: any;
   id?: string; // UUID
@@ -21,7 +20,6 @@ export interface IExpense {
 }
 
 export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid';
-
 export interface IExpenseV2 {
   id?: string;
   description: string;
@@ -33,7 +31,7 @@ export interface IExpenseV2 {
   user: string,
   rank?: string;
   ranked?: number
-  benefactor_sum?: number; // Sum of amounts for the same beneficiary
+  benefactor_sum?: number; 
 }
 // ====================================================|2|
 export interface IShopping {
