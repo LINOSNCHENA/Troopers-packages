@@ -2,7 +2,7 @@
   "description": "loans, payments, and transactions",
   "main": "src/index.ts",
   "name": "@linosnchena/shared-troopers-packages",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publishConfig": {
     "access": "public"
   },
