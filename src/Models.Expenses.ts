@@ -19,7 +19,7 @@ export interface IExpense {
   categoryx: string; // default 'false'
 }
 
-export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid';
+export type ExpenseProgress = 'await' | 'allow' | 'rejected' | 'paid' | "completed" | "pending";
 export interface IExpenseV2 {
   id?: string;
   description: string;
@@ -31,7 +31,7 @@ export interface IExpenseV2 {
   user: string,
   rank?: string;
   ranked?: number
-  benefactor_sum?: number; 
+  benefactor_sum?: number;
 }
 // ====================================================|2|
 export interface IShopping {
@@ -59,20 +59,21 @@ export interface IDeposit {
   id: any;
   description: string | null;
   enforcer: string;
-  amount: number;
   source: string | null;
   type: string | null;
   deadline: string | Date | null;
   destination: string | null;
   fotox: number;
   month: number;
-  receiptNumber: number;
   year: number;
   created: string;
   updated: string;
   rank: number;
   registrar: string;
   url: string; // default 'deposits'
+  amount: number;
+  amount_source: number;
+  receipt_number: number;
 }
 
 // ====================================================|4|
