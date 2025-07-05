@@ -173,7 +173,7 @@ export const expenseSample = <IExpense>({
 })
 
 //6
-export const depositSample = <IDeposit>({
+export const depositSample = <IDeposit><unknown>({
   description: "TestBed", enforcer: "test@yahoo.com", amount: 0, source: "TestsBed",
   destination: "Test-Bank", type: "Test", created: formatDateWhole(new Date()).standard,
   updated: formatDateWhole(new Date()).standard, deadline: formatDateWhole(new Date()).standard, month: 9099, year: 9090,
